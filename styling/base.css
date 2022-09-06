@@ -1,0 +1,224 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.bg-img {
+    background-image: url("background.jpg");
+    min-height: 950px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    margin: 20px;
+    max-width: 2000px;
+    padding: 20px;
+    padding-left: 23px;
+    background-color: white;
+    border-radius: 5px;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.submitbtnbig {
+    background-color: #EDC7B7;
+    color: #AD3B61;
+    font: helvetica;
+    font-weight: 600;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 15px;
+    width: 400px;
+}
+
+input[type=text],
+input[type=password],
+input[type=checkbox],
+input[type=date] {
+    width: 100%;
+    padding: 15px;
+    margin: 0 0 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=checkbox]:focus,
+input[type=date]:focus,
+select:focus {
+    background-color: #EDC7B7;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input[type=file] {
+    width: 205px;
+    padding: 15px;
+    padding-right: 0px;
+    margin: 0 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+select {
+    width: auto;
+    padding: 15px;
+    margin: 0 0 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+td {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-indent: 4px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #AD3B61;
+    text-align: center;
+}
+
+.pad {
+    background: #EDC7B7;
+    padding: 1en;
+    align-content: center;
+    margin: auto;
+    padding: 10px;
+    padding-bottom: 5px;
+    width: 800px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+body {
+    background-color: #736356;
+}
+
+.darkBox {
+    float: right;
+    margin: 20px;
+    max-width: 430px;
+    padding: 0px 10px 0px 10px;
+    background-color: #EDC7B7;
+    border-radius: 50px;
+}
+
+.darkBox p {
+    color: #AD3B61;
+}
+
+.dark .darkBox p {
+    color: #222;
+}
+
+.mode {
+    float: right;
+}
+
+.change {
+    cursor: pointer;
+    border: 1px solid #555;
+    border-radius: 40%;
+    width: 20px;
+    text-align: center;
+    padding: 5px;
+    margin-left: 8px;
+}
+
+.dark {
+    background-color: #222;
+    color: #e6e6e6;
+}
+
+.dark h1 {
+    color: #222;
+}
+
+.dark .submitbtnbig {
+    background-color: #222;
+    color: #e6e6e6;
+}
+
+.dark .bg-img {
+    opacity: 0.8;
+}
+
+.dark td,
+p,
+input[type=file] {
+    color: #222;
+}
+
+.dark .pad {
+    background: #222;
+}
+
+.dark .darkBox {
+    float: right;
+    margin: 20px;
+    max-width: 430px;
+    padding: 0px 10px 0px 10px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.dark .dn {
+    color: white;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+
+li a:hover {
+    background-color: #111;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+
+@media (max-width: 600px) {
+    .col-25,
+    .col-75,
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
